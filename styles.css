@@ -33,7 +33,10 @@ img[src*="png"] {
 
 .hero-container {
     display: flex;
-    background: no-repeat  center/100% url("images/scott-webb-yekGLpc3vro-unsplash-cropped.jpg");
+    background: no-repeat;
+    background-size: 100%;
+    background-position: left;
+    background-image: url("images/scott-webb-yekGLpc3vro-unsplash-cropped.jpg");
     width: 100vw;
     height: 80vh;
 }
