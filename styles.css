@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .navigation-container {
@@ -37,7 +38,6 @@ img[src*="png"] {
     background-size: 100%;
     background-position: center;
     background-image: url("images/scott-webb-yekGLpc3vro-unsplash-cropped.jpg");
-    width: 100vw;
     height: 80vh;
 }
 
@@ -51,7 +51,7 @@ img[src*="jpg"] {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    color: rgb(247, 241, 245);
+    color: rgb(252, 250, 250);
     padding-left: 200px;
     text-align: left;
 }
@@ -62,17 +62,24 @@ img[src*="jpg"] {
 
 .be-our-eyes p {
     font-size: 1.6rem;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
 
 
-.text {
-    margin: 250px;
-    padding: 30px;
-    border: 3px solid black;
-    display: flex;
-    overflow: scroll;
-    width: 20vw;
-    height: 50vh;
-    flex-direction: column;
-    font-size: larger;
+
+
+
+.playing {
+    text-align: justify;
+    padding: 50px;
+    margin: 20px;
 }
