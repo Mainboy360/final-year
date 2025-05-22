@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    padding-left: 90px;
+}
+
+img[src*="png"] {
+    width: 100px;
+    height: 100%;
+}
+
+.rsu-logo-n-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: auto;
+    padding-right: 100px;
+}
+
+.hero-container {
+    display: flex;
+    background: no-repeat  center/100% url("images/scott-webb-yekGLpc3vro-unsplash-cropped.jpg");
+    width: 100vw;
+    height: 80vh;
+}
+
+img[src*="jpg"] {
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-container .be-our-eyes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: rgb(247, 241, 245);
+    padding-left: 200px;
+}
+
+.be-our-eyes h1 {
+    font-size: 5rem;
+}
+
+.be-our-eyes p {
+    font-size: 1.6rem;
+}
