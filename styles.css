@@ -53,6 +53,7 @@ img[src*="jpg"] {
     flex-direction: column;
     color: rgb(247, 241, 245);
     padding-left: 200px;
+    text-align: left;
 }
 
 .be-our-eyes h1 {
@@ -61,4 +62,17 @@ img[src*="jpg"] {
 
 .be-our-eyes p {
     font-size: 1.6rem;
+}
+
+
+.text {
+    margin: 250px;
+    padding: 30px;
+    border: 3px solid black;
+    display: flex;
+    overflow: scroll;
+    width: 20vw;
+    height: 50vh;
+    flex-direction: column;
+    font-size: larger;
 }
