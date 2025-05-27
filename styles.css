@@ -65,21 +65,11 @@ img[src*="jpg"] {
 
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: white;
-    padding: 10px;
+
+a {
+    text-decoration: none;
 }
 
-
-
-
-
-.playing {
-    text-align: justify;
-    padding: 50px;
-    margin: 20px;
+a:hover {
+    text-decoration: underline;
 }
