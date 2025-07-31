@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 10px 5px;
+}
+
+img[src*="png"] {
+    width: 100px;
+    height: 100%;
+}
+
+.rsu-logo-n-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.description {
+        text-align: center;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    padding: 50px;
+}
+
+
+textarea {
+    width: 50vw;
+    height: 200px;
+    text-align: left;
+    padding: 20px;
+}
+
+
+button[type="submit"] {
+    padding: 10px;
+}
+
+
+
+@media (max-width: 500px) {
+    navigation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 10px 5px;
+}
+
+img[src*="png"] {
+    width: 100px;
+    height: 100%;
+}
+
+.rsu-logo-n-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.description {
+        text-align: center;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    padding: 50px;
+}
+
+
+textarea {
+    width: 90vw;
+    height: 200px;
+    text-align: left;
+    padding: 20px;
+}
+
+}

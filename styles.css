@@ -10,7 +10,7 @@
     align-items: center;
     padding: 10px;
     padding-left: 90px;
-}
+   }
 
 img[src*="png"] {
     width: 100px;
@@ -39,6 +39,7 @@ img[src*="png"] {
     background-position: center;
     background-image: url("images/scott-webb-yekGLpc3vro-unsplash-cropped.jpg");
     height: 80vh;
+    margin-top: 20px;
 }
 
 img[src*="jpg"] {
